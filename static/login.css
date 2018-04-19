@@ -1,0 +1,36 @@
+body {
+    background: url(https://images6.alphacoders.com/330/330183.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header h1 {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: "courier new", arial;
+    text-shadow: 5px 5px 10px #888888;
+}
+
+.header h3 {
+    color: white;
+    font-family: "courier new", arial;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.label label {
+    color: white;
+    font-family: "courier new", arial;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.input input {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #888888;
+}

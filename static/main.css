@@ -1,0 +1,66 @@
+.header {
+    margin: 20px;
+}
+.header h1 {
+    color: white;
+}
+
+.button {
+    background-color: #e88f0b;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 6px;
+    font-family: "courier new", arial;
+    font-weight: bold;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px #888888; 
+}
+
+.button:hover {
+    background-color: #535e7c;
+}
+thead {
+    font-weight: bold;
+}
+li {
+    color: white;
+    font-size: 130%; 
+}
+
+body {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important; 
+    background-size: cover !important;
+    background-color: black;
+} 
+
+body::after {
+  content: "";
+  background: url('http://theartmad.com/wp-content/uploads/2015/06/Star-Wars-Lightsaber-Wallpaper-4.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;   
+}
+
+.table {
+    color: white;
+}
+
+.mod {
+    color: black;
+}
+
+.navbar-brand, li {
+    color: black !important;
+}
